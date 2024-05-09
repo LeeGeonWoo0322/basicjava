@@ -1,0 +1,26 @@
+package kr.or.ddit.study06.sec02;
+
+public class TriangleExample {
+	public static void main(String[] args) {
+		Point p1=new Point();
+		Point p2=new Point();
+		Point p3=new Point();
+		p1.x=0;
+		p1.y=0;
+		
+		p2.x=10;
+		p2.y=8;
+		
+		p3.x=2;
+		p3.y=4;
+		
+		Triangle t1=new Triangle();
+		t1.p1=p1;
+		t1.p2=p2;
+		t1.p3=p3;
+		System.out.println(t1.toString());
+		
+		//t1 p2 y값은
+		System.out.println(t1.p2.y);
+	}
+}
