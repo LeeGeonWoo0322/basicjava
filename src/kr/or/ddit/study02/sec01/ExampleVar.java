@@ -9,6 +9,5 @@ public class ExampleVar {
 		int b=sc.nextInt();
 		int result=a+b;
 		System.out.println(result);
-		ㅁ나ㅣㅇ멩ㅁ엠ㅇ
 	}
 }
